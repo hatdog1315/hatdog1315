@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.freepik.com/512/566/566294.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>DREAMY DUEL | </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <iframe src="nocopyrightpls.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe>
+
+    <audio play="playAudio" volume="-03">
+        <source src="nocopyrightpls.mp3" volume="-03" type="audio/mpeg">
+    </audio>
+
+</head>
+
+<body>
+    <div class="spinner">
+        <i class="fa fa-spinner fa-spin"></i>
+    </div>
+
+    <div class="chat-bubble" style="display: none;">
+        <i class="fa fa-bars"></i>
+    </div>
+
+
+    <div class="container1" style="background: transparent;">
+        <div class="container">
+            <div style="color: white;">Game Mode: <span style="font-weight: bold;" id="gamemodelabel"></span>
+            </div>
+            <div id="board" class="board"></div>
+
+
+            <div id="info">
+                <div id="turn"></div>
+                <div id="status"></div>
+                <div id="score">
+                    <div class="player-score" id="playerXScore">Player X: 0</div>
+                    <div class="player-score" id="playerOScore">Player O: 0</div>
+                </div>
+            </div>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <p id="modal-message"></p>
+                    <button id="play-again">Play Again</button>
+                    <a id="play-again1" href="tictactoe-menu.html">Exit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+</body>
+
+</html>
